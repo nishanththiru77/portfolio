@@ -1,0 +1,35 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.skill-cat h4 {
+  margin-bottom: 20px;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  border-left: 3px solid var(--accent-blue);
+  padding-left: 15px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background: var(--surface-color);
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-smooth);
+}
+
+.tag:hover {
+  border-color: var(--accent-blue);
+  color: var(--text-primary);
+  transform: scale(1.05);
+}

@@ -1,0 +1,27 @@
+.ach-card {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  transition: var(--transition-smooth);
+}
+
+.ach-card:hover {
+  background: var(--accent-blue-dim);
+  border-color: var(--accent-blue);
+}
+
+.ach-icon {
+  font-size: 2.5rem;
+}
+
+.ach-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.ach-content p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}

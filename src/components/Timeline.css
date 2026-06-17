@@ -1,0 +1,55 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-top: 40px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 40px;
+}
+
+.time-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marker-dot {
+  width: 16px;
+  height: 16px;
+  background: var(--accent-blue);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--accent-blue);
+}
+
+.marker-line {
+  width: 2px;
+  flex: 1;
+  background: var(--border-color);
+  margin: 10px 0;
+}
+
+.timeline-item:last-child .marker-line {
+  display: none;
+}
+
+.time-content {
+  padding-bottom: 50px;
+}
+
+.time-year {
+  font-weight: 700;
+  color: var(--accent-blue);
+  font-size: 0.9rem;
+}
+
+.time-content h4 {
+  font-size: 1.4rem;
+  margin: 5px 0 10px;
+}
+
+.time-content p {
+  color: var(--text-secondary);
+}
